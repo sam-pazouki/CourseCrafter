@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Introduction to JavaScript",
+      "description": "Learn the basics of JavaScript programming.",
+      "endDate": "2025-12-31",
+      "videoSize": 300,
+      "videos": [
+        { "id": "1", "title": "Getting Started with JavaScript", "size": 150 }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Advanced React",
+      "description": "Master React and its ecosystem.",
+      "endDate": "2024-12-31",
+      "videoSize": 500,
+      "videos": [
+        { "id": "1", "title": "React Hooks", "size": 200 }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "CSS for Beginners",
+      "description": "Learn how to design with CSS.",
+      "endDate": "2025-06-15",
+      "videoSize": 400,
+      "videos": [
+        { "id": "1", "title": "CSS Basics", "size": 150 }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Node.js Fundamentals",
+      "description": "Get started with backend development using Node.js.",
+      "endDate": "2024-11-30",
+      "videoSize": 600,
+      "videos": [
+        { "id": "1", "title": "Setting Up Node.js", "size": 200 }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Python for Data Science",
+      "description": "Learn Python for data analysis and machine learning.",
+      "endDate": "2025-03-20",
+      "videoSize": 550,
+      "videos": [
+        { "id": "1", "title": "Data Science Basics with Python", "size": 250 }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "HTML5 and Web Design",
+      "description": "Learn the fundamentals of HTML5 and design web pages.",
+      "endDate": "2024-07-15",
+      "videoSize": 300,
+      "videos": [
+        { "id": "1", "title": "HTML5 Syntax", "size": 150 }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Angular Development",
+      "description": "Become an expert in Angular framework.",
+      "endDate": "2025-12-31",
+      "videoSize": 700,
+      "videos": [
+        { "id": "1", "title": "Angular Overview", "size": 350 }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "JavaScript Algorithms",
+      "description": "Learn common algorithms used in JavaScript.",
+      "endDate": "2024-09-10",
+      "videoSize": 400,
+      "videos": [
+        { "id": "1", "title": "Sorting Algorithms", "size": 200 }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Introduction to Machine Learning",
+      "description": "Learn the basics of machine learning algorithms.",
+      "endDate": "2025-05-22",
+      "videoSize": 450,
+      "videos": [
+        { "id": "1", "title": "Supervised Learning", "size": 225 }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Database Management Systems",
+      "description": "Learn how to manage databases effectively.",
+      "endDate": "2025-01-10",
+      "videoSize": 650,
+      "videos": [
+        { "id": "1", "title": "SQL Basics", "size": 300 }
+      ]
+    }
+  ]
+}
