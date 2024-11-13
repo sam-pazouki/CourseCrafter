@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Adicionar Curso
 ![Screenshot 2024-11-13 142711](https://github.com/user-attachments/assets/94d4ec18-5fc9-4692-a500-ffb915a17b37)
 
-## Docker Report
+## Docker 
 ![Screenshot 2024-11-13 131815](https://github.com/user-attachments/assets/41a2732f-2af0-4a5a-9aad-454bacc694f5)
 
 ## Teste unitários
@@ -37,9 +37,6 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
