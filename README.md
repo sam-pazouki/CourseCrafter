@@ -2,7 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## página inicial
+![Screenshot 2024-11-13 142701](https://github.com/user-attachments/assets/31b8fae4-e79e-4a29-bf42-510c9dc16021)
+
+
+## Adicionar Curso
+![Screenshot 2024-11-13 142711](https://github.com/user-attachments/assets/94d4ec18-5fc9-4692-a500-ffb915a17b37)
+
+## Docker Report
+![Screenshot 2024-11-13 131815](https://github.com/user-attachments/assets/41a2732f-2af0-4a5a-9aad-454bacc694f5)
+
+## Teste unitario
+![Screenshot 2024-11-13 141658](https://github.com/user-attachments/assets/75c83aca-ba48-426f-ba4a-0c15af4d57c6)
+
+
 
 In the project directory, you can run:
 
