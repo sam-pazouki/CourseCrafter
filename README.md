@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## página inicial
+## Página inicial
 ![Screenshot 2024-11-13 142701](https://github.com/user-attachments/assets/31b8fae4-e79e-4a29-bf42-510c9dc16021)
 
 
@@ -12,10 +12,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Docker Report
 ![Screenshot 2024-11-13 131815](https://github.com/user-attachments/assets/41a2732f-2af0-4a5a-9aad-454bacc694f5)
 
-## Teste unitario
+## Teste unitários
 ![Screenshot 2024-11-13 141658](https://github.com/user-attachments/assets/75c83aca-ba48-426f-ba4a-0c15af4d57c6)
 
+## Recursos
 
+- **Design responsivo**: otimizado para telas de dispositivos móveis e desktop usando o Chakra UI.
+- **Gerenciamento de cursos**: registre novos cursos, edite cursos existentes e exclua cursos.
+- **Filtro de cursos ativos**: exiba apenas cursos cuja data de término ainda não passou.
+- **Relatório de tamanho de vídeo**: mostre o tamanho total do vídeo para cada curso.
+- **Validação de formulário**: garanta que todos os formulários (registro de curso, edição) sejam validados antes do envio.
+- **SPA (Single Page Application)**: navegação suave sem recarregamentos de página para uma melhor experiência do usuário.
+- **Teste de unidade**: garanta a confiabilidade do aplicativo usando Jest e React Testing Library.
+- **Dockerizado**: o aplicativo é empacotado usando Docker para fácil implantação.
 
 In the project directory, you can run:
 
@@ -40,20 +49,40 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Docker Setup (Optional)
+Build the Docker Image:
 
-### `npm run eject`
+If you want to run the project in Docker, use the following command to build the image:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+bash
+Copy code
+docker build -t course-management-platform .
+Run the Docker Container:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After building the image, run it using Docker:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+bash
+Copy code
+docker run -p 3000:3000 course-management-platform
+The app will be available at http://localhost:3000.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React**: JavaScript library for building user interfaces.
+- **Chakra UI**: A simple, modular, accessible UI component library.
+- **TypeScript**: A typed superset of JavaScript for type safety.
+- **Jest**: JavaScript testing framework for unit tests.
+- **React Testing Library**: For rendering React components in a test environment.
+- **Docker**: Containerization of the application for easy deployment.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Installation
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [Docker](https://www.docker.com/) (optional, if you want to run in a containerized environment)
+
