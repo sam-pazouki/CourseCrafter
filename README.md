@@ -44,21 +44,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
 Docker Setup (Optional)
-Build the Docker Image:
 
 If you want to run the project in Docker, use the following command to build the image:
-
-bash
-Copy code
 docker build -t course-management-platform .
-Run the Docker Container:
-
 After building the image, run it using Docker:
-
-bash
-Copy code
 docker run -p 3000:3000 course-management-platform
 The app will be available at http://localhost:3000.
 
@@ -72,10 +62,6 @@ The app will be available at http://localhost:3000.
 - **React Testing Library**: For rendering React components in a test environment.
 - **Docker**: Containerization of the application for easy deployment.
 
-
-## Installation
-
-### Prerequisites
 
 Before you begin, ensure you have the following installed:
 
