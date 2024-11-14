@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Meu Curso Aplicativo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -12,8 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Docker 
 ![Screenshot 2024-11-13 131815](https://github.com/user-attachments/assets/41a2732f-2af0-4a5a-9aad-454bacc694f5)
 
-## Teste unitários
-![Screenshot 2024-11-13 141658](https://github.com/user-attachments/assets/75c83aca-ba48-426f-ba4a-0c15af4d57c6)
+
 
 ## Recursos
 
